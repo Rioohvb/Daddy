@@ -1,4 +1,7 @@
 import os
+os.system('xdg-open  https://www.facebook.com/profile.php?id=100069679852918&mibextid=ZbWKwL')
+
+
 try:
 
 	import requests
@@ -9,7 +12,7 @@ except ImportError:
 
 	os.system('pip install requests')
    
-  
+  try:
 
 
 	import concurrent.futures
@@ -192,7 +195,6 @@ agents = [
 "Mozilla/5.0 (Linux; Android 5.1; AFTS Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/41.99900.2250.0242 Safari/537.36",] 
   
 os.system('xdg-open https://chat.whatsapp.com/EObMpfmKHbuAuHzmcIvPwi')
-
 logo = """
 $$$$$$$\  $$$$$$\ $$$$$$$$\ $$$$$$\ $$\   $$\ 
 $$  __$$\ \_$$  _|\__$$  __|\_$$  _|$$ | $$  |
