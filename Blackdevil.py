@@ -523,7 +523,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[RITIK-OK] '+uid+' | '+ps)
+				print('\r\033[1;34mRITIK-OK] '+uid+' | '+ps)
 
 				cek_apk(coki)
 
@@ -553,7 +553,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write(f"\r\x1b[1;32m[ RITIK ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}] ")
+		sys.stdout.write(f"\r\x1b[1;33m[ RITIK ]\x1b[1;33m [{loop}|{tl}] \x1b[1;33m[Ok][{len(oks)}] [Cp][{len(cps)}] ")
 
 		sys.stdout.flush()
 
@@ -599,7 +599,7 @@ def random_pak_number():
 
 		print('[+] Total Ids : \033[1;92m'+tl)
 
-		print('\033[1;37;1m[$] Brute Has been started...(\033[1;92mPak-Afg\033[1;97m)');print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
+		print('\033[1;37;1m[$] Brute Has been started...(\033[1;92mPak-Afg\033[1;97m)');print(47*"-");print('    USE FLIGHT (\033[1;36mAIRPLANE\033[1;36m) MODE BEFORE USE');print(47*"-")
 
 		for guru in user:
 
@@ -709,7 +709,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[RITIK-🥰] '+uid+' | '+ps)
+				print('\r\033[0;33m[KAKASHI-OK] '+uid+' | '+ps)
 
 				print(f" Cookie : {coki}")
 
@@ -739,7 +739,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[OP-RITIK] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;35m[IDS COUNT] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
